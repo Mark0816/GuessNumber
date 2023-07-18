@@ -1,0 +1,126 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 396
+  ClientWidth = 530
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = [fsBold]
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 344
+    Top = 216
+    Width = 128
+    Height = 39
+    Caption = #32066#26997#23494#30908
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 24
+    Top = 41
+    Width = 156
+    Height = 37
+    Caption = #32066#26997#23494#30908
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -37
+    Font.Name = #27161#26999#39636
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 24
+    Top = 103
+    Width = 273
+    Height = 250
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -35
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    Lines.Strings = (
+      'Memo1')
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 344
+    Top = 48
+    Width = 116
+    Height = 49
+    Caption = #25105#29468
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -35
+    Font.Name = #24494#36575#27491#40657#39636
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 204
+    Top = 39
+    Width = 93
+    Height = 43
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    Text = '0'
+  end
+  object Button2: TButton
+    Left = 344
+    Top = 103
+    Width = 116
+    Height = 49
+    Caption = #19981#29468#20102
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -35
+    Font.Name = #24494#36575#27491#40657#39636
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 416
+    Top = 312
+    Width = 91
+    Height = 57
+    Caption = 'AGAIN'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Bauhaus 93'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 320
+    Top = 296
+    Width = 75
+    Height = 25
+    Caption = 'Button4'
+    TabOrder = 5
+    OnClick = Button4Click
+  end
+end
